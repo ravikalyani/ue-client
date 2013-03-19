@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TextQuestionActivity" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/text_question"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="40dp"
+	        android:text="@string/question" />
+
+	    <EditText
+	        android:id="@+id/editTextText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:ems="10"
+	        android:inputType="text"
+	        android:layout_marginTop="20dp">
+
+	        <requestFocus
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+
+	    </EditText>
+	    	    
+	    <Button
+	        android:id="@+id/buttonSubmit"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="40dp"
+	        android:onClick="onClickSubmitButton"
+	        android:text="@string/submit" />
+	    	    
+	</LinearLayout>
+</ScrollView>

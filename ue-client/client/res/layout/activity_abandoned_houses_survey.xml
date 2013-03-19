@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".AbandonedHousesSurvey"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewAHSQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/AHSQ1" />
+
+    <RadioGroup
+        android:id="@+id/radioAHSQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/radioAHSQ1Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/radio_yes" />
+
+        <RadioButton
+            android:id="@+id/radioAHSQ1No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="@string/radio_no" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewAHSQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/AHSQ2" />
+
+    <EditText
+        android:id="@+id/editTextAHSQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewAHSQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/AHSQ3" />
+
+    <EditText
+        android:id="@+id/editTextAHSQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSubmitButton"
+        android:text="@string/submit"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>

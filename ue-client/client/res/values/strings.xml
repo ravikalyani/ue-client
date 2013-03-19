@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UrbanEyes</string>
+    <string name="legal">License</string>
+    <string name="no_maps">Google Maps V2 not available!</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="title_activity_license">LicenseActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="addPoint">Add point</string>
+    <string name="beginPath">Begin Path</string>
+    <string name="endPath">End Path</string>
+    <string name="title_activity_food_vendor_survey">FoodVendorSurveyActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="vendor_type_label">What kind of vendor is this?</string>
+    <string name="veg_option">Is there a vegetarian option?</string>
+    <string name="min_veg_opt">How much is the cheapest vegetarian option?</string>
+    <string name="submit">Submit</string>
+    <string name="radio_hot_dog">Hot Dog</string>
+    <string name="radio_toronto_alc">Toronto a la Carte</string>
+    <string name="radio_food_truck">Food Truck</string>
+    <string name="radio_other">Other</string>
+    <string name="radio_veg_yes">Yes</string>
+    <string name="radio_veg_no">No</string>
+    <string name="veg_avail_label">Is vegetarian option available?</string>
+    <string name="title_activity_subway_entrance_survey">SubwayEntranceSurvey</string>
+    <string name="attendant_label">Does this entrance have an attendant on duty?</string>
+    <string name="turnstile">Does this entrance have a turnstile for people with disabilities?</string>
+    <string name="token_machine">Does this entrance have a token machine?</string>
+    <string name="elevator">Does this entrance have an elevator?</string>
+    <string name="radio_yes">Yes</string>
+    <string name="radio_no">No</string>
+    <string name="title_activity_project_list">Choose project...</string>
+    <string name="title_activity_abandoned_houses_survey">AbandonedHousesSurvey</string>
+    <string name="AHSQ1">Is the building abandoned?</string>
+    <string name="AHSQ2">What indicates that it is abandoned?</string>
+    <string name="AHSQ3">How many floors does the building have?</string>
+    <string name="title_activity_start_survey">StartSurveyActivity</string>
+    <string name="title_activity_number_question">NumberQuestionActivity</string>
+    <string name="question">question</string>
+    <string name="title_activity_text_question">TextQuestionActivity</string>
+    <string name="title_activity_radio_group_question">RadioGroupQuestionActivity</string>
+
+</resources>

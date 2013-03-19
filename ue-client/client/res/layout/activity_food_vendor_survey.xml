@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".FoodVendorSurveyActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewLabelVendorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/vendor_type_label" />
+
+    <RadioGroup
+        android:id="@+id/radioVendorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/radioHotDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="@string/radio_hot_dog" />
+
+        <RadioButton
+            android:id="@+id/radioTorontoALC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/radio_toronto_alc" />
+
+        <RadioButton
+            android:id="@+id/radioFoodTruck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/radio_food_truck" />
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/radio_other" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewVeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/veg_avail_label" />
+
+    <RadioGroup
+        android:id="@+id/radioVegOpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:id="@+id/radioVegYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:text="@string/radio_veg_yes" />
+
+        <RadioButton
+            android:id="@+id/radioVegNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="@string/radio_veg_no" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewMinVegOpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/min_veg_opt"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/editTextVegPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="10dp">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSubmitButton"
+        android:text="@string/submit"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>
